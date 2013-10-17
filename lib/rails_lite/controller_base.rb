@@ -53,6 +53,8 @@ class ControllerBase
    render_content(new_erb, "text/html")
   end
 
-  def invoke_action(name)
+  def invoke_action(action_name)
+    # self.send()
+    
   end
 end

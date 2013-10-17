@@ -2,12 +2,15 @@ class Route
   attr_reader :pattern, :http_method, :controller_class, :action_name
 
   def initialize(pattern, http_method, controller_class, action_name)
+    
   end
 
   def matches?(req)
+    
   end
 
   def run(req, res)
+    
   end
 end
 
